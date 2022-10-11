@@ -1,0 +1,337 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.18f1 (8a091f9adba4) revision 9046303'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 15591 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/chris/GameProject/AntWar/BusSim
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52313
+Successfully changed project path to: C:/Users/chris/GameProject/AntWar/BusSim
+C:/Users/chris/GameProject/AntWar/BusSim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 94.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.18f1 (8a091f9adba4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/chris/GameProject/AntWar/BusSim/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7795 MB
+    Driver:   30.0.13040.9001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009627 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 91.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (705ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+				TypeCache.Initialize (181ms)
+					TypeCache.ScanAssembly (178ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008566 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\chris\GameProject\AntWar\BusSim\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\chris\GameProject\AntWar\BusSim\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.827 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1828ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1445ms)
+			LoadAssemblies (307ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (424ms)
+				TypeCache.Initialize (419ms)
+					TypeCache.ScanAssembly (406ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (59.1 KB). Loaded Objects now: 3864.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 6.491300 ms (FindLiveObjects: 0.788800 ms CreateObjectMapping: 0.128100 ms MarkObjects: 5.239400 ms  DeleteObjects: 0.331300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16664.498919 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/wire.mat
+  artifactKey: Guid(dcf6ff65abb46fd44b9b46a4ea2769c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/wire.mat using Guid(dcf6ff65abb46fd44b9b46a4ea2769c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aed3e3f1f89e37f2fb33fda1fd62a8a') in 0.210270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets
+  artifactKey: Guid(e2eb17367fbffb545bb014c894454be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets using Guid(e2eb17367fbffb545bb014c894454be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64649222068d70d8abafa338a1723c11') in 0.013158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/BrokenVector/LowPolyShaders
+  artifactKey: Guid(ac0a9484cf97e024aaf3db7b1ec62b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyShaders using Guid(ac0a9484cf97e024aaf3db7b1ec62b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc8c5411d083a847a152c7ec88ee26b') in 0.011345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials
+  artifactKey: Guid(15cff051ef84ebb4e91bde49973e53db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials using Guid(15cff051ef84ebb4e91bde49973e53db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e498aae4db234ba7eafd3964873154fb') in 0.012429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/yellowgreen.mat
+  artifactKey: Guid(c86769698a3d6814d9e5a560c5c20e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/yellowgreen.mat using Guid(c86769698a3d6814d9e5a560c5c20e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3d18cf969222359c29ce97f1074bff') in 0.034063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.855595 seconds.
+  path: Assets/BrokenVector/LowPolyShaders/Shaders
+  artifactKey: Guid(2326b4e5e5251234abbd296c91c048b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyShaders/Shaders using Guid(2326b4e5e5251234abbd296c91c048b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f057b70348c95a1ac96c75d2f2a4e247') in 0.010358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 247.854989 seconds.
+  path: Assets/Urban American Assets
+  artifactKey: Guid(ba109c5d12519d4478c9a636f69aa5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets using Guid(ba109c5d12519d4478c9a636f69aa5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f9079c3d913097ab607e3f75c00f5c') in 0.011199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.214166 seconds.
+  path: Assets/Urban American Assets/Props
+  artifactKey: Guid(56e6e0451580135499a9be90ccc97c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props using Guid(56e6e0451580135499a9be90ccc97c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30695ebf80664ffbd7abbbc50f6bd141') in 0.012711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.841181 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B
+  artifactKey: Guid(103100e7aff504f47b15dad3ad7e537b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B using Guid(103100e7aff504f47b15dad3ad7e537b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e30c2c3921e03336ba979569cf80337') in 0.009960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027053 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - BigSedan.prefab
+  artifactKey: Guid(2e5efb68ad2afcd45ba8f0193e8b58e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - BigSedan.prefab using Guid(2e5efb68ad2afcd45ba8f0193e8b58e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34abaee261b27414d0d6d643b3dff7f0') in 0.202096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - MidSedan 1.prefab
+  artifactKey: Guid(b197f5263aa27fe488ecd6fa7f97039b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - MidSedan 1.prefab using Guid(b197f5263aa27fe488ecd6fa7f97039b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cb6fe3ce8066285ca4b6259d54d7ec') in 0.045580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - OldWagon 1.prefab
+  artifactKey: Guid(aab64e2bf19a9754dae64a03bf79a424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - OldWagon 1.prefab using Guid(aab64e2bf19a9754dae64a03bf79a424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7359600e458a6c1a944f714d42e58cd7') in 0.035357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - Taxi.prefab
+  artifactKey: Guid(876e3e4790d7eba42a6728d777e1a9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - Taxi.prefab using Guid(876e3e4790d7eba42a6728d777e1a9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b85b75dbe6323005ceb7055e356fd0') in 0.033605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - MidSedan 2.prefab
+  artifactKey: Guid(fb51c78cbf83c66479120b593483ae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - MidSedan 2.prefab using Guid(fb51c78cbf83c66479120b593483ae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1c590e77e91d8404acb90155cdc659') in 0.043276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - OldSedan 3.prefab
+  artifactKey: Guid(266ced9dec048eb4ba79de043b69506d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - OldSedan 3.prefab using Guid(266ced9dec048eb4ba79de043b69506d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a106df79c001fb4930ff2da4551859') in 0.040009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - Taxi 2.prefab
+  artifactKey: Guid(a59a6677665c95e4b941b9c87a1284b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - Taxi 2.prefab using Guid(a59a6677665c95e4b941b9c87a1284b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143bd7705b5711a12b9ef203f355ec37') in 0.031979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - BigSedan 4.prefab
+  artifactKey: Guid(9f23c531fb46abf4aa1af8c61fdfb18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - BigSedan 4.prefab using Guid(9f23c531fb46abf4aa1af8c61fdfb18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655e81c055c86a79d4d6eaf4e12842a8') in 0.035782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - Small_Car.prefab
+  artifactKey: Guid(f91336dfcda69084db008c3df49bbcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - Small_Car.prefab using Guid(f91336dfcda69084db008c3df49bbcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc5eb1c6437b162b71c115ee96b6113') in 0.038444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - BigSedan 2.prefab
+  artifactKey: Guid(566938e064390544b84e4d36dc2f8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - BigSedan 2.prefab using Guid(566938e064390544b84e4d36dc2f8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70b635637f1b0005b87b7748c75f5a7') in 0.045258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - Van.prefab
+  artifactKey: Guid(3da7295d3f87e2f44ab5868a6b9e3303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - Van.prefab using Guid(3da7295d3f87e2f44ab5868a6b9e3303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade0898c785b22f2a50c2ca5e7efe9a8') in 0.034979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - MidSedan.prefab
+  artifactKey: Guid(ac9b34f61c042ed45b9d4c7da1e4cd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - MidSedan.prefab using Guid(ac9b34f61c042ed45b9d4c7da1e4cd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441d1343cc7d66119348c51b455198e3') in 0.043535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - Truck.prefab
+  artifactKey: Guid(de98251347cb8a8478def5b3457f2e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - Truck.prefab using Guid(de98251347cb8a8478def5b3457f2e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd625b6f29641e360bc97a2287b9e5399') in 0.044806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - OldWagon.prefab
+  artifactKey: Guid(2c59bc70b9da308469dadbcdbb1bacc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - OldWagon.prefab using Guid(2c59bc70b9da308469dadbcdbb1bacc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8576498d8c9d0ac973b2d52904502d') in 0.040534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles B/Traffic B - BigSedan 3.prefab
+  artifactKey: Guid(8eee684eb534b2645b57fd47fff1dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles B/Traffic B - BigSedan 3.prefab using Guid(8eee684eb534b2645b57fd47fff1dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e061839e49112b142738325d4000bd4') in 0.045019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.780361 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Car1.prefab
+  artifactKey: Guid(0c015dbff2c36e94089df72dedec0b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Car1.prefab using Guid(0c015dbff2c36e94089df72dedec0b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd64dd94fc12c05735456e1c4e2866ad') in 0.134297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Taxi.prefab
+  artifactKey: Guid(905302bafe1c35d41a358c50fbbaf5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Taxi.prefab using Guid(905302bafe1c35d41a358c50fbbaf5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc8dee78774493e94cbaee137ad63ec') in 0.040975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Van.prefab
+  artifactKey: Guid(69218bbca8d800c4bb9d56d77816fe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Van.prefab using Guid(69218bbca8d800c4bb9d56d77816fe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8935dcf30eb5969e3f132b23e8a18880') in 0.043807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Police Car.prefab
+  artifactKey: Guid(38578129bfa01a24e8383820c8fb1613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Police Car.prefab using Guid(38578129bfa01a24e8383820c8fb1613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0198c3b25ce9caab7065eff29a161464') in 0.028794 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
