@@ -10,10 +10,13 @@ public class BusController : MonoBehaviour
     private float currentBrakeForce;
     private float currentSteeringAngle;
     private bool isBraking;
+    private float currentSpeed;
+    
 
     [SerializeField] private float enginePower;
     [SerializeField] private float brakePower;
     [SerializeField] private float maxSteeringAngle;
+    [SerializeField] private float maxSpeed;
 
     [SerializeField] private WheelCollider frontLeftCollider;
     [SerializeField] private WheelCollider frontRightCollider;
@@ -24,6 +27,8 @@ public class BusController : MonoBehaviour
     [SerializeField] private Transform frontRightTransform;
     [SerializeField] private Transform rearRightTransform;
     [SerializeField] private Transform rearLeftTransform;
+
+    [SerializeField] private Rigidbody rigidbody;
     private void FixedUpdate()
     {
         GetInput();
@@ -44,8 +49,17 @@ public class BusController : MonoBehaviour
 
     private void PowerEngine()
     {
-        frontLeftCollider.motorTorque = verticalInput * enginePower;
-        frontRightCollider.motorTorque = verticalInput * enginePower;
+        currentSpeed = rigidbody.velocity.sqrMagnitude;
+
+        if (currentSpeed < maxSpeed)
+        {
+            frontLeftCollider.motorTorque = verticalInput * enginePower;
+            frontRightCollider.motorTorque = verticalInput * enginePower;
+        }
+        
+        
+        
+        
         currentBrakeForce = isBraking ? brakePower : 0f;
         Braking();
         
