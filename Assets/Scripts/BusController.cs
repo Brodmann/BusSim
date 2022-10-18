@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BusController : MonoBehaviour
@@ -29,7 +30,10 @@ public class BusController : MonoBehaviour
     [SerializeField] private Transform rearLeftTransform;
 
     [SerializeField] private Rigidbody rigidbody;
-    private void FixedUpdate()
+
+    
+
+    private void Update()
     {
         GetInput();
         PowerEngine();
@@ -49,16 +53,18 @@ public class BusController : MonoBehaviour
 
     private void PowerEngine()
     {
-        currentSpeed = rigidbody.velocity.sqrMagnitude;
-
+        currentSpeed = Mathf.Sqrt(Mathf.Pow(rigidbody.velocity.sqrMagnitude, 1.3f));
         if (currentSpeed < maxSpeed)
         {
             frontLeftCollider.motorTorque = verticalInput * enginePower;
             frontRightCollider.motorTorque = verticalInput * enginePower;
         }
-        
-        
-        
+        else
+        {
+            frontLeftCollider.motorTorque = currentSpeed;
+            frontRightCollider.motorTorque = currentSpeed;
+        }
+
         
         currentBrakeForce = isBraking ? brakePower : 0f;
         Braking();
