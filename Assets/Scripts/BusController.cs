@@ -44,7 +44,7 @@ public class BusController : MonoBehaviour
         UpdateWheel(rearRightCollider, rearRightTransform);
     }
 
-    private void GetInput()
+    private void GetInput() 
     {
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
@@ -54,7 +54,7 @@ public class BusController : MonoBehaviour
     private void PowerEngine()
     {
         currentSpeed = Mathf.Sqrt(Mathf.Pow(rigidbody.velocity.sqrMagnitude, 1.3f));
-        if (currentSpeed < maxSpeed)
+        if (currentSpeed < maxSpeed) //checks if top speed has been reached
         {
             frontLeftCollider.motorTorque = verticalInput * enginePower;
             frontRightCollider.motorTorque = verticalInput * enginePower;
@@ -66,7 +66,7 @@ public class BusController : MonoBehaviour
         }
 
         
-        currentBrakeForce = isBraking ? brakePower : 0f;
+        currentBrakeForce = isBraking ? brakePower : 0f; 
         Braking();
         
     }

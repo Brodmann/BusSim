@@ -2134,7 +2134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraTarget: {fileID: 396735823}
-  sSpeed: 10
+  cameraSpeed: 0.5
   dist: {x: 0, y: 0, z: 0}
   lookTarget: {fileID: 1971555849}
 --- !u!1 &1008603683
@@ -4844,7 +4844,7 @@ MonoBehaviour:
   enginePower: 5000
   brakePower: 8000
   maxSteeringAngle: 25
-  maxSpeed: 80
+  maxSpeed: 60
   frontLeftCollider: {fileID: 1819949817}
   frontRightCollider: {fileID: 347171001}
   rearRightCollider: {fileID: 1824032751}
@@ -4865,8 +4865,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.667603, y: 0.98321855, z: 9.63727}
-  m_Center: {x: 0, y: -0.66094595, z: -0.11698055}
+  m_Size: {x: 2.667603, y: 2.363324, z: 11.611462}
+  m_Center: {x: 0, y: 0.029106556, z: -0.0055446625}
 --- !u!54 &2514275300076130522
 Rigidbody:
   m_ObjectHideFlags: 0
